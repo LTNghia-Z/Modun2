@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giới Thiệu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Bước 2: Liên kết Chuyển đến Nội dung chính -->
+    <a href="#main" class="skip-link">Chuyển đến Nội dung chính</a>
+
+    <header>
+      <h1>Giới Thiệu</h1>
+    </header>
+
+    <nav>
+      <!-- Bước 5: Ảnh trong nav (chiều rộng 10%) -->
+      <img src="https://picsum.photos/100/100" alt="Logo trang web" />
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <!-- Bước 2: Thêm id="main" vào thẻ main -->
+    <main id="main">
+      <h2>Về Dự Án Này</h2>
+      <p>
+        Trang web này thể hiện khả năng liên kết nhiều tài liệu HTML với cùng
+        một tệp CSS duy nhất.
+      </p>
+      <p>
+        Các danh sách điều hướng được hiển thị dưới dạng hàng ngang nhờ vào việc
+        tùy chỉnh thuộc tính hiển thị và chiều rộng của thẻ danh mục.
+      </p>
+
+      <!-- Bước 6, 7, 8: Bố cục Grid 2 cột và hình ảnh -->
+      <h2>Hình Ảnh Hoạt Động (Grid)</h2>
+      <section class="grid">
+        <div>
+          <img
+            src="https://picsum.photos/400/300?random=3"
+            alt="Ảnh hoạt động 1"
+          />
+          <p>Dự án hoàn thành</p>
+        </div>
+        <div>
+          <img
+            src="https://picsum.photos/400/300?random=4"
+            alt="Ảnh hoạt động 2"
+          />
+          <p>Đội ngũ phát triển</p>
+        </div>
+      </section>
+
+      <!-- Bước 9: Bố cục Flexbox -->
+      <h2>Kỹ Năng & Công Nghệ (Flexbox)</h2>
+      <section class="flex">
+        <div class="card">HTML5</div>
+        <div class="card">CSS3 Grid</div>
+        <div class="card">Flexbox</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Bản quyền thuộc về khóa học Web Design.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Bước 2: Liên kết Chuyển đến Nội dung chính -->
+    <a href="#main" class="skip-link">Chuyển đến Nội dung chính</a>
+
+    <header>
+      <h1>Chào mừng đến với Website</h1>
+    </header>
+
+    <nav>
+      <!-- Bước 5: Ảnh trong nav (chiều rộng 10%) -->
+      <img src="https://picsum.photos/100/100" alt="Logo trang web" />
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+
+    <!-- Bước 2: Thêm id="main" vào thẻ main -->
+    <main id="main">
+      <h2>Nội Dung Chính</h2>
+      <p>
+        Đây là trang chủ được tạo kiểu bằng tệp stylesheet dùng chung. Cỡ chữ và
+        khoảng cách dòng đã được cấu hình tối ưu để dễ đọc.
+      </p>
+      <p>
+        Tất cả các thành phần màu sắc trên trang đều đáp ứng tiêu chuẩn tiếp cận
+        WAVE về độ tương phản.
+      </p>
+
+      <!-- Bước 6, 7, 8: Bố cục Grid 2 cột và hình ảnh -->
+      <h2>Hình Ảnh Lưới (Grid)</h2>
+      <section class="grid">
+        <div>
+          <img src="https://picsum.photos/400/300?random=1" alt="Ảnh mẫu 1" />
+          <p>Mô tả ảnh 1</p>
+        </div>
+        <div>
+          <img src="https://picsum.photos/400/300?random=2" alt="Ảnh mẫu 2" />
+          <p>Mô tả ảnh 2</p>
+        </div>
+      </section>
+
+      <!-- Bước 9: Bố cục Flexbox -->
+      <h2>Danh Sách Linh Hoạt (Flexbox)</h2>
+      <section class="flex">
+        <div class="card">Mục 1</div>
+        <div class="card">Mục 2</div>
+        <div class="card">Mục 3</div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Bản quyền thuộc về khóa học Web Design.</p>
+    </footer>
+  </body>
+</html>
